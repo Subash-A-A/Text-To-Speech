@@ -1,2 +1,2 @@
 # Text-To-Speech
-Text to Speech using JavaScript.
+Text to Speech using JavaScript SpeechSynthesis.
