@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Zen Kaku Gothic New", sans-serif;
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #f1d1d1;
+}
+.text-speech-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 70vh;
+}
+#text {
+  width: 50vw;
+  height: 50vh;
+  font-size: 30px;
+  background: #f3e1e1;
+  color: #5c4343;
+  padding: 0.3em;
+}
+#text::-webkit-scrollbar {
+  width: 10px;
+}
+#text::-webkit-scrollbar-thumb {
+  background: #7d5a5a;
+  border-radius: 10px;
+}
+#text::-webkit-scrollbar-track {
+  background: #5c4343;
+}
+
+.speed-control {
+  background: #7d5a5a;
+  color: aliceblue;
+  font-size: 20px;
+  border: 1px solid black;
+  padding: 1em;
+}
+.btn {
+  font-size: 20px;
+  margin: 0 0.5em;
+  padding: 0.3em;
+  color: #5c4343;
+  border-radius: 109.8px;
+  border: none;
+}
+.buttons {
+  background: #7d5a5a;
+  color: aliceblue;
+  border: 1px solid black;
+  padding: 1em;
+}
+.controls {
+  display: flex;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+/* Media Queries */
+@media (max-width: 700px) {
+  .buttons {
+    display: flex;
+    flex-direction: column;
+  }
+}
